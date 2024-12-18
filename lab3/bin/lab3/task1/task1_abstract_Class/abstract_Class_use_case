@@ -1,0 +1,5 @@
+Use an abstract class when:
+
+You want to share code (fields or methods) among related classes.
+The class represents a base from which other classes will inherit, and there is a "is-a" relationship (e.g., Animal -> Dog, Cat).
+You want to enforce that some methods must be implemented by subclasses while providing common behavior for others.

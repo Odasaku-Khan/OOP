@@ -1,0 +1,5 @@
+Use an interface when:
+
+You want to define a contract that multiple classes can implement, regardless of their inheritance hierarchy.
+You need to achieve multiple inheritance since a class can implement multiple interfaces but extend only one class.
+The behavior you are defining is something that an object can "do"
